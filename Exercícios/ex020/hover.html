@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            background-color: lightcoral;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            color: wheat;
+        }
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: blue;
+            font-weight: bold;
+        }
+        div:hover {
+            background-color: red;
+        }
+        div:active {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        PASSE O MOUSE AQUI
+        <p>Produtos disponíveis!!</p>
+    </div>
+</body>
+</html>
