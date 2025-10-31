@@ -7,8 +7,14 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
 }
 body {
-    background-color: gray;
+    background-image: url(imagens/uma-natureza-morta-com-uma-lampada-uma-caneta-uma-lanterna-e-um-livro.jpg);
+    background-image: url(imagens/rosa-vermelha-dentro-de-um-livro-aberto.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     margin: 0;
+
 }
 header {
     background-color: black;
@@ -46,7 +52,16 @@ main p {
 }
 
 .fundo2 {
-    background-color: rgba(199, 82, 82, 0.144);
+    background-image: url(imagens/uma-natureza-morta-com-uma-lampada-uma-caneta-uma-lanterna-e-um-livro.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.fundo2 p{
+    background-color: rgba(128, 128, 128, 0.404);
     font-weight: bold;
     padding: 30px 10px;
     width: 800px;
@@ -64,7 +79,15 @@ main p {
 }
 
 .fundo4 {
-    background-color: rgba(199, 82, 82, 0.144);
+    background-image: url(imagens/rosa-vermelha-dentro-de-um-livro-aberto.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fundo4 p{
+    background-color: rgba(128, 128, 128, 0.404);
     font-weight: bold;
     padding: 30px 10px;
     width: 800px;
