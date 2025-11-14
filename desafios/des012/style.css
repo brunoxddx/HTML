@@ -4,22 +4,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-body {
-    background-image: url(imagens/uma-natureza-morta-com-uma-lampada-uma-caneta-uma-lanterna-e-um-livro.jpg);
-    background-image: url(imagens/rosa-vermelha-dentro-de-um-livro-aberto.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
 
+body {
+    background-color: black;
+    margin: 0;
 }
+
 header {
     background-color: black;
     color: white;
-    padding: 20px;
     width: 100%;
     height: 400px;
     display: flex;
@@ -29,8 +24,14 @@ header {
 }
 
 header h1 {
-    font-size: 80px;
+    padding-top: 50px;
+    font-size: 10vw;
     margin: 5px;
+}
+
+header p {
+    padding-bottom: 50px;
+    font-size: 30px;
 }
 
 main {
@@ -38,17 +39,19 @@ main {
 }
 
 main p {
-    font-size: 60px;
-    
+    font-size: 5vw; /* unitless for consistent scaling */
+    line height: 4;
+    padding-bottom: 5px;
 }
+
 .fundo1 {
     background-color: white;
     color: black;
     font-weight: bold;
     padding: 30px 10px;
     margin: 0;
-
-    line-height: 60px;
+    
+ 
 }
 
 .fundo2 {
@@ -57,16 +60,18 @@ main p {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
+    padding: 30px 10px;
+    
 }
 
 .fundo2 p{
     background-color: rgba(128, 128, 128, 0.404);
     font-weight: bold;
-    padding: 30px 10px;
-    width: 800px;
-    align-items: center;
-    line-height: 60px;
+
+    max-width: auto;
+    width: calc(100% - 40px);
+    
+
 }
 
 .fundo3 {
@@ -74,8 +79,8 @@ main p {
     color: black;
     font-weight: bold;
     padding: 30px 10px;
-
-    line-height: 60px;
+    
+    
 }
 
 .fundo4 {
@@ -84,15 +89,16 @@ main p {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    padding: 30px 10px;
 }
 
 .fundo4 p{
     background-color: rgba(128, 128, 128, 0.404);
     font-weight: bold;
-    padding: 30px 10px;
-    width: 800px;
-    align-items: center;
-    line-height: 60px;
+    max-width: 800px;
+    width: calc(100% - 40px);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .fundo5 {
@@ -100,8 +106,7 @@ main p {
     color: black;
     font-weight: bold;
     padding: 30px 10px;
-    
-    line-height: 40px;
+  
 }
 
 footer {
